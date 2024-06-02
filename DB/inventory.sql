@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `companies` (
 -- Volcando datos para la tabla db_inventory.companies: ~0 rows (aproximadamente)
 DELETE FROM `companies`;
 INSERT INTO `companies` (`id`, `name`, `phone`, `address`, `created_at`, `updated_at`) VALUES
-	(1, 'StockInventarios', '9611702915', 'Calle 10 #123, Colonia San Pedro, Ciudad de México, Código Postal 01230.', NULL, '2023-04-17 05:35:09');
+	(1, 'StockInventarios', '9611702915', 'Calle 10 #123, Hernando Siles, La Paz, Código Postal 0000.', NULL, '2023-04-17 05:35:09');
 
 -- Volcando estructura para tabla db_inventory.customers
 CREATE TABLE IF NOT EXISTS `customers` (
@@ -97,23 +97,22 @@ CREATE TABLE IF NOT EXISTS `customers` (
 -- Volcando datos para la tabla db_inventory.customers: ~16 rows (aproximadamente)
 DELETE FROM `customers`;
 INSERT INTO `customers` (`id`, `customer_name`, `email`, `phone`, `address`, `status`, `created_at`, `updated_at`) VALUES
-	(37, 'Juan Pérez', 'juan.perez@example.com', '555-1234', 'Calle 1, Colonia Centro, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(38, 'María Rodríguez', 'maria.rodriguez@example.com', '555-5678', 'Calle 2, Colonia Condesa, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(39, 'Pedro García', 'pedro.garcia@example.com', '555-9876', 'Calle 3, Colonia Roma, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(40, 'Ana Hernández', 'ana.hernandez@example.com', '5552468', 'Calle 4, Colonia Narvarte, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 04:36:26'),
-	(41, 'Jorge Martínez', 'jorge.martinez@example.com', '555-3691', 'Calle 5, Colonia Santa Fe, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(42, 'Laura González', 'laura.gonzalez@example.com', '555-5555', 'Calle 6, Colonia Polanco, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(43, 'Miguel Álvarez', 'miguel.alvarez@example.com', '555-7777', 'Calle 7, Colonia Juárez, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(44, 'Carmen Flores', 'carmen.flores@example.com', '555-1212', 'Calle 8, Colonia Coyoacán, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(45, 'José García', 'jose.garcia@example.com', '555-7777', 'Calle 9, Colonia Del Valle, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(46, 'Fernanda González', 'fernanda.gonzalez@example.com', '555-2345', 'Calle 10, Colonia San Ángel, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(47, 'Diego Torres', 'diego.torres@example.com', '555-4567', 'Calle 11, Colonia Santa María la Ribera, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(48, 'Carla Hernández', 'carla.hernandez@example.com', '555-1111', 'Calle 12, Colonia Tabacalera, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(49, 'Raúl Díaz', 'raul.diaz@example.com', '555-2222', 'Calle 13, Colonia Doctores, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(50, 'Sofía García', 'sofia.garcia@example.com', '555-3333', 'Calle 14, Colonia Lindavista, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(51, 'Héctor Jiménez', 'hector.jimenez@example.com', '555-4444', 'Calle 15, Colonia Vallejo, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
-	(52, 'Diana Martínez', 'diana.martinez@example.com', '555-5555', 'Calle 16, Colonia Industrial, Ciudad de México', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05');
-
+    (37, 'Juan Pérez', 'juan.perez@example.com', '591-1234-3421', 'Calle 1, Zona Central, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (38, 'María Rodríguez', 'maria.rodriguez@example.com', '591-5678-3421', 'Calle 2, Zona Sopocachi, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (39, 'Pedro García', 'pedro.garcia@example.com', '591-9876-3421', 'Calle 3, Zona Miraflores, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (40, 'Ana Hernández', 'ana.hernandez@example.com', '591-2468-3421', 'Calle 4, Zona San Pedro, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 04:36:26'),
+    (41, 'Jorge Martínez', 'jorge.martinez@example.com', '591-3691-3421', 'Calle 5, Zona Calacoto, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (42, 'Laura González', 'laura.gonzalez@example.com', '591-5555-3421', 'Calle 6, Zona Achumani, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (43, 'Miguel Álvarez', 'miguel.alvarez@example.com', '591-7777-3421', 'Calle 7, Zona Obrajes, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (44, 'Carmen Flores', 'carmen.flores@example.com', '591-1212-3421', 'Calle 8, Zona Alto Obrajes, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (45, 'José García', 'jose.garcia@example.com', '591-7777-3421', 'Calle 9, Zona Irpavi, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (46, 'Fernanda González', 'fernanda.gonzalez@example.com', '591-2345-3421', 'Calle 10, Zona Seguencoma, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (47, 'Diego Torres', 'diego.torres@example.com', '591-4567-3421', 'Calle 11, Zona San Miguel, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (48, 'Carla Hernández', 'carla.hernandez@example.com', '591-1111-3421', 'Calle 12, Zona Los Pinos, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (49, 'Raúl Díaz', 'raul.diaz@example.com', '591-2222-3421', 'Calle 13, Zona Cota Cota, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (50, 'Sofía García', 'sofia.garcia@example.com', '591-3333-3421', 'Calle 14, Zona Bolognia, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (51, 'Héctor Jiménez', 'hector.jimenez@example.com', '591-4444-3421', 'Calle 15, Zona San Jorge, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05'),
+    (52, 'Diana Martínez', 'diana.martinez@example.com', '591-5555-3421', 'Calle 16, Zona San Antonio, La Paz', 1, '2023-04-17 02:08:05', '2023-04-17 02:08:05');
 -- Volcando estructura para tabla db_inventory.menus
 CREATE TABLE IF NOT EXISTS `menus` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
@@ -593,7 +592,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Volcando datos para la tabla db_inventory.users: ~1 rows (aproximadamente)
 DELETE FROM `users`;
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `branch_id`, `role_id`, `remember_token`, `created_at`, `updated_at`) VALUES
-	(12, 'Diego Carmona Bernal', 'carmonabernaldiego@gmail.com', '$2y$10$W/nqTuN0X.JaGtGBkpw01OTSL0I3aShYL9QusP8Q5kIZ2AviqQHKC', 1, 2, '6zd4CxMA9RCTnuJaxtyhByrBYJsPfV9GtAB4pJE3Ht6YTsIvQ7ETjUVO1jlv', '2020-07-31 17:27:25', '2023-04-17 05:20:18');
+	(12, 'Freddy Alejandro Paco', 'fredang95@gmail.com', '$2y$10$W/nqTuN0X.JaGtGBkpw01OTSL0I3aShYL9QusP8Q5kIZ2AviqQHKC', 1, 2, '6zd4CxMA9RCTnuJaxtyhByrBYJsPfV9GtAB4pJE3Ht6YTsIvQ7ETjUVO1jlv', '2020-07-31 17:27:25', '2023-04-17 05:20:18');
 
 -- Volcando estructura para tabla db_inventory.vendors
 CREATE TABLE IF NOT EXISTS `vendors` (
