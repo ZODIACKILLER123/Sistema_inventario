@@ -593,7 +593,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 DELETE FROM `users`;
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `branch_id`, `role_id`, `remember_token`, `created_at`, `updated_at`) VALUES
 	(12, 'Freddy Alejandro Paco', 'fredang95@gmail.com', '$2y$10$W/nqTuN0X.JaGtGBkpw01OTSL0I3aShYL9QusP8Q5kIZ2AviqQHKC', 1, 2, '6zd4CxMA9RCTnuJaxtyhByrBYJsPfV9GtAB4pJE3Ht6YTsIvQ7ETjUVO1jlv', '2020-07-31 17:27:25', '2023-04-17 05:20:18');
-
 -- Volcando estructura para tabla db_inventory.vendors
 CREATE TABLE IF NOT EXISTS `vendors` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
@@ -609,16 +608,16 @@ CREATE TABLE IF NOT EXISTS `vendors` (
 -- Volcando datos para la tabla db_inventory.vendors: ~11 rows (aproximadamente)
 DELETE FROM `vendors`;
 INSERT INTO `vendors` (`id`, `name`, `phone`, `email`, `address`, `created_at`, `updated_at`) VALUES
-	(76, 'La Michoacana', '55-1234-5678', 'contacto@lamichoacana.com.mx', 'Av. Insurgentes Sur 1647, Col. San José Insurgentes, CDMX', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(77, 'El Paraiso del Helado', '55-8765-4321', 'info@elparaisodelhelado.com.mx', 'Calle Gral. Emiliano Zapata 54, Col. San Francisco Chilpan, CDMX', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(78, 'La Flor de Michoacán', '33-3333-3333', 'ventas@laflordemichoacan.com.mx', 'Calle Sinaloa 1437, Col. Providencia, Guadalajara, Jalisco', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(79, 'Paletería la Victoria', '81-1111-1111', 'contacto@paleterialavictoria.com.mx', 'Av. Chapultepec Sur 177, Col. Americana, Monterrey, Nuevo León', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(80, 'Helados Santa Clara', '55-5555-5555', 'contacto@santaclara.com.mx', 'Av. de los Insurgentes Sur 1395, Col. Insurgentes Mixcoac, CDMX', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(81, 'La Imperial', '33-2222-2222', 'info@laimperial.com.mx', 'Av. México 2500, Col. Ladrón de Guevara, Guadalajara, Jalisco', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(82, 'Helados Holanda', '55-9876-5432', 'contacto@heladosholanda.com.mx', 'Av. Revolución 1928, Col. San Ángel, CDMX', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(83, 'Nieve Garrafa', '55-1111-2222', 'ventas@nievegarrafa.com.mx', 'Av. Toluca 124, Col. Olivar de los Padres, CDMX', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(84, 'La Tapatía Helados', '33-4444-4444', 'contacto@latapatiahelados.com.mx', 'Calle Francisco Javier Mina 20, Col. Centro, Guadalajara, Jalisco', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
-	(85, 'La Tradicional', '81-2222-2222', 'info@latradicional.com.mx', 'Calle Padre Mier 1241, Col. Centro, Monterrey, Nuevo León', '2023-04-16 21:44:30', '2023-04-16 21:44:30');
+	(76, 'La Paz Distribuciones', '2-211-5678', 'contacto@lapazdistribuciones.bo', 'Av. Mariscal Santa Cruz 1234, Centro, La Paz', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(77, 'Cochabamba Alimentos', '4-423-8765', 'info@cochabambaalimentos.bo', 'Calle Gral. Achá 567, Centro, Cochabamba', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(78, 'Santa Cruz Export', '3-333-3333', 'ventas@santacruzexport.bo', 'Av. Cristo Redentor 1437, Zona Norte, Santa Cruz de la Sierra', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(79, 'Tarija Producciones', '4-444-1111', 'contacto@tarijaproducciones.bo', 'Av. La Banda 177, Zona Central, Tarija', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(80, 'Oruro Comercial', '2-555-5555', 'contacto@oruocomercial.bo', 'Calle La Plata 1395, Centro, Oruro', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(81, 'Sucre Servicios', '4-222-2222', 'info@sucreservicios.bo', 'Av. Las Americas 2500, Centro, Sucre', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(82, 'Potosí Minerales', '2-987-6543', 'contacto@potosiminerales.bo', 'Calle Quijarro 1928, Centro, Potosí', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(83, 'Beni Agro', '3-111-2222', 'ventas@beniagro.bo', 'Av. Trinidad 124, Centro, Trinidad', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(84, 'Pando Forestal', '3-444-4444', 'contacto@pandoforestal.bo', 'Calle Cobija 20, Centro, Cobija', '2023-04-16 21:44:30', '2023-04-16 21:44:30'),
+	(85, 'El Alto Distribuciones', '2-222-2222', 'info@elaltodistribuciones.bo', 'Av. 6 de Marzo 1241, Centro, El Alto', '2023-04-16 21:44:30', '2023-04-16 21:44:30');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
